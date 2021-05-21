@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faMedium, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ltm';
+  title = 'Lahiru Tholka-Mudalige';
+  faGithub = faGithub;
+  faMedium = faMedium; 
+  faLinkedin = faLinkedin;
 }

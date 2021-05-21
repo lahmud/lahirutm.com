@@ -1,11 +1,23 @@
 @import "fonts";
+@import "colors";
+@import "buttons";
 
-html {
-	font-family: sans-serif;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+html,
+body {
+  height: 100%;
+}
+body {
+  background: $gray-dark;
+  font-family: "lora-regular", serif;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  color: $white;
 }
 
-body {
-	margin: 0;
+h1, h2, h3, h4, h5, h6 {
+	font-family: "poppins-semibold", sans-serif;
+	color: $white;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 2.1rem;
 }

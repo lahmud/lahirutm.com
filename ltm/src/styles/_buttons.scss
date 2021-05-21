@@ -1,0 +1,22 @@
+@import "colors";
+
+a,
+a:visited {
+  color: $white;
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $red;
+    outline: 0;
+  }
+}
+
+.button {
+    text-transform: uppercase;
+    font-family: "poppins-semibold";
+    text-decoration: none;
+    border: 5px solid $white;
+    padding: 1.5rem;
+}
