@@ -1,15 +1,15 @@
-<section id="container">
+<section class="container">
   <div class="overlay"></div>
 
   <div class="intro-content">
-    <h5>Hello, World.</h5>
-    <h1>I'm Lahiru.</h1>
+    <h2 class="subtitle">Hello, World.</h2>
+    <h1 class="title">I'm Lahiru.</h1>
 
-    <p class="intro-position">
-      <span>Full-stack engineer</span>
-      <span>DevOps enthusiast</span>
-      <span>Humans + Tech = <3</span>
-    </p>
+    <div class="personal-details">
+      <p>Full-stack engineer</p>
+      <p>DevOps enthusiast</p>
+      <p>Humans + Tech = <fa-icon class="red" [icon]="faHeart"></fa-icon></p>
+    </div>
 
     <a class="button" href="#" title="">Download Resume</a>
   </div>
@@ -17,17 +17,17 @@
 
   <ul class="social-links">
     <li>
-      <a href="#">
+      <a target="_blank" href="https://www.linkedin.com/in/ltmudalige/">
         <fa-icon [icon]="faLinkedin"></fa-icon>
       </a>
     </li>
     <li>
-      <a href="#">
+      <a target="_blank" href="https://github.com/lahmud">
         <fa-icon [icon]="faGithub"></fa-icon>
       </a>
     </li>
     <li>
-      <a href="#">
+      <a target="_blank" href="https://medium.com/@LTMudalige">
         <fa-icon [icon]="faMedium"></fa-icon>
       </a>
     </li>

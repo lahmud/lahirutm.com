@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { faMedium, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -12,4 +13,5 @@ export class AppComponent {
   faGithub = faGithub;
   faMedium = faMedium; 
   faLinkedin = faLinkedin;
+  faHeart = faHeart;
 }
