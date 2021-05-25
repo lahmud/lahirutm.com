@@ -10,6 +10,8 @@
 }
 
 .social-links {
+  padding: 0;
+  margin: 0;
   li {
     display: inline-block;
     list-style: none;
@@ -31,16 +33,14 @@
 }
 
 .personal-details {
+  margin: 2rem 0;
   p {
     margin: 0;
     padding: 0;
-
-    &:first-child {
-      margin-top: 2rem;
-    }
-
-    &:last-child {
-      margin-bottom: 2rem;
-    }
   }
+}
+
+#resume-button {
+  display: block;
+  margin: 2rem 0;
 }
